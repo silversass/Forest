@@ -5,11 +5,8 @@ More info: https://www.reddit.com/r/dailyprogrammer/comments/27h53e/662014_chall
 
 # Entities
 There are 3 `entity` types:
-
 `Tree` (3 stages: sapling, tree, elder tree)
-
 `Lumberjack`
-
 `Bear`
 
 # Forest
