@@ -31,36 +31,3 @@ The program tracks yearly lumber harvested and the number of maw accidents.
 If yearly lumber >= number of lumberjacks, new lumberjack(s) are randomly spawned. The formula is: yearlyLumber/10 rounded down (e.g. 39/10 = 3 lumberjacks to be hired). If yearly lumber is lower than the number of lumberjacks, 1 random lumberjack is removed from the forest.
 If there has been atleast one maw event during the year, 1 random bear is removed from the forest, otherwise 1 bear will be randomly spawned.
 If there is only one lumberjack left and he is mawed, new lumberjack will be spawned in a random spot.
-
-# Example
-Sample output for a 20x20 map with M = 480 (40 years):
-
-*** END OF SIMULATION ***
-Year  40 : [ TTTTTTTTLLL_______________________________________ ]
-Month: 481
-Trees: 67
-Lumberjacks: 26
-Bears: 0
-Total lumber harvested: 1418
-Total maw accidents: 110
-
-              L             L          
-        L           L                  
-  L                                    
-                                       
-        L                     L        
-                    L                  
-                                       
-        L                   L   L      
-                L                      
-        L           L   L              
-  L             L                 S   S
-                            T L   S T T
-              T S   L     L     S   S S
-              T S S   S S L L S S      
-      S S S S S T T T   S L   S   S   T
-        T T T T S S T T S              
-      S S T L T L S T S S       T      
-        T S     S T T T S   T S        
-                    T T S   L T S      
-        T   T       T S S              
