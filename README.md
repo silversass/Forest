@@ -4,13 +4,13 @@ Ecology simulator written in Python for Reddit programming challenge.
 More info: https://www.reddit.com/r/dailyprogrammer/comments/27h53e/662014_challenge_165_hard_simulated_ecology_the/
 
 # Entities
-There are 3 entity types:
+There are 3 `entity` types:
 
-Tree (3 stages: sapling, tree, elder tree)
+`Tree` (3 stages: sapling, tree, elder tree)
 
-Lumberjack
+`Lumberjack`
 
-Bear
+`Bear`
 
 # Forest
 The forest is a 2-dimensional array. The size is N x N. 
@@ -18,7 +18,7 @@ The forest is a 2-dimensional array. The size is N x N.
 The map is randomly populated with predefined percentages in populate() method (0.5 = 50% of the forest area).
 
 # Time
-The simulation cycles by months (ticks). 12 ticks = a year. Events happen monthly/yearly.
+The simulation cycles by months (`tick`). 12 ticks = a year. Events happen monthly/yearly.
 
 The simulation ends when month M is reached or there are no trees left in the forest.
 
@@ -37,7 +37,7 @@ Bears wander every month for up to 5 times. If a bear encounters a lumberjack, t
 # Yearly events
 The program tracks yearly lumber harvested and the number of maw accidents. 
 
-If yearly lumber >= number of lumberjacks, new lumberjack(s) are randomly spawned. The formula is: yearlyLumber/10 rounded down (e.g. 39/10 = 3 lumberjacks to be hired). If yearly lumber is lower than the number of lumberjacks, 1 random lumberjack is removed from the forest.
+If yearly lumber >= number of lumberjacks, new lumberjack(s) are randomly spawned. The formula is: `yearlyLumber/10` rounded down (e.g. 39/10 = 3 lumberjacks to be hired). If yearly lumber is lower than the number of lumberjacks, 1 random lumberjack is removed from the forest.
 
 If there has been atleast one maw event during the year, 1 random bear is removed from the forest, otherwise 1 bear will be randomly spawned.
 
