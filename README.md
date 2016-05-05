@@ -1,6 +1,7 @@
 # Introduction
-Ecology simulator written in Python for Reddit programming challenge
-See more at: https://www.reddit.com/r/dailyprogrammer/comments/27h53e/662014_challenge_165_hard_simulated_ecology_the/
+Ecology simulator written in Python for Reddit programming challenge.
+
+More info: https://www.reddit.com/r/dailyprogrammer/comments/27h53e/662014_challenge_165_hard_simulated_ecology_the/
 
 # Entities
 There are 3 entity types:
